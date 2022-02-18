@@ -1,0 +1,162 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap");
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+body {
+    background-image: url(../img/kalutara2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.title {
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+    text-align: center;
+    color: darkmagenta;
+    text-shadow: 1px 1px 5px rgb(247, 247, 153);
+    margin: 10px auto 30px;
+    background-color: rgba(229, 241, 59, 0.38);
+    border: 2px solid rgba(100, 148, 237, 0.384);
+    border-radius: 20px;
+    max-width: 800px;
+}
+.menu {
+    font-family: Merriweather;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+    text-align: left;
+    max-width: 350px;
+    margin: 0 auto 30px;
+    color: rgb(1, 110, 1);
+    text-shadow: 1px 1px 5px rgb(247, 247, 153);
+}
+li {
+    background: url("../img/palm2.png") 0px 8px/ 30px no-repeat;
+    padding: 10px 10px 10px 40px;
+    margin-bottom: 10px;
+    background-color: rgba(229, 241, 59, 0.38);
+    border: 2px solid rgba(100, 148, 237, 0.384);
+    border-radius: 20px;
+}
+li:hover {
+    background-color: rgba(100, 148, 237, 0.384);
+    font-size: 30px;
+    box-shadow: 0px 0px 8px 5px rgba(137, 43, 226, 0.377);
+}
+li:active {
+    background-color: rgb(247, 247, 153);
+}
+
+#section,
+#section-2,
+#section-3 {
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    color: darkmagenta;
+    text-shadow: 1px 1px 5px rgb(247, 247, 153);
+    margin: 0px auto 30px;
+    max-width: 1200px;
+    background-color: rgba(229, 241, 59, 0.38);
+    border: 2px solid rgba(100, 148, 237, 0.384);
+    border-radius: 20px;
+}
+.title:hover::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(../img/palm2.png) 0 0 / 20px no-repeat;
+    display: inline-block;
+}
+.title:hover::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(../img/palm2.png) 0 0 / 20px no-repeat;
+    display: inline-block;
+}
+.title::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: url(../img/palm2.png) 0 0 / 40px no-repeat;
+    display: inline-block;
+}
+.title::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: url(../img/palm2.png) 0 0 / 40px no-repeat;
+    display: inline-block;
+}
+.image {
+    display: block;
+    width: 600px;
+    height: 350px;
+    margin: 0px auto 30px;
+    border: 2px solid rgba(100, 148, 237, 0.384);
+    border-radius: 20px;
+}
+.image_block {
+    width: 1200px;
+    height: 125px;
+    margin: 0px auto 30px;
+    background-image: url(../img/lanka1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid rgba(100, 148, 237, 0.384);
+    border-radius: 10px;
+}
+.text {
+    font-family: Merriweather;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+    text-shadow: 1px 1px 5px rgb(247, 247, 153);
+    max-width: 1200px;
+    padding: 30px 30px 30px 50px;
+    margin: 0 auto 30px;
+    background-color: rgba(229, 241, 59, 0.38);
+    border: 2px solid rgba(100, 148, 237, 0.384);
+    border-radius: 20px;
+}
+.text::first-line {
+    color: aliceblue;
+}
+p:first-of-type {
+    background-color: rgba(0, 139, 139, 0.384);
+}
+p:last-of-type {
+    background-color: rgba(0, 139, 139, 0.384);
+}
+p:nth-of-type(2) {
+    background-color: rgba(0, 100, 0, 0.384);
+}
+.top {
+    display: block;
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+    color: darkmagenta;
+    text-shadow: 1px 1px 5px rgb(247, 247, 153);
+    margin: 10px auto 30px;
+    background-color: rgba(229, 241, 59, 0.38);
+    border: 2px solid rgba(100, 148, 237, 0.384);
+    border-radius: 20px;
+    max-width: 300px;
+}
+.top:visited {
+    color: aliceblue;
+    background-color: aliceblue;
+}
